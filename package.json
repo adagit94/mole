@@ -1,0 +1,27 @@
+{
+  "name": "mole",
+  "version": "0.0.0",
+  "description": "Commnad line tool for file system analysis.",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adagit94/mole.git"
+  },
+  "keywords": [
+    "file",
+    "system",
+    "analysis",
+    "analyze"
+  ],
+  "author": "Adam Pelc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adagit94/mole/issues"
+  },
+  "homepage": "https://github.com/adagit94/mole#readme",
+  "devDependencies": {
+    "@types/node": "^20.12.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
