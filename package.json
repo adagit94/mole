@@ -1,7 +1,10 @@
 {
   "name": "mole",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Commnad line tool for file system analysis.",
+  "bin": {
+    "mole": "./js/analyze.js"
+  },
   "scripts": {},
   "repository": {
     "type": "git",
@@ -21,7 +24,6 @@
   "homepage": "https://github.com/adagit94/mole#readme",
   "devDependencies": {
     "@types/node": "^20.12.11",
-    "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
   }
 }
