@@ -4,7 +4,7 @@ Mole is simple command line tool for file system analysis. It can visualize fold
 ## How to
 Simplest way to use mole is to install it globally:  
 
-`npm i -g mole`
+`npm i -g mole-ts`
 
 and use it anywhere from command line as follows:  
 

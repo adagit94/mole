@@ -1,6 +1,6 @@
 {
   "name": "mole-ts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Commnad line tool for file system analysis.",
   "bin": {
     "mole": "./js/analyze.js"
