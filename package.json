@@ -1,5 +1,5 @@
 {
-  "name": "mole",
+  "name": "mole-ts",
   "version": "1.0.0",
   "description": "Commnad line tool for file system analysis.",
   "bin": {
