@@ -22,7 +22,7 @@ const extractAssignment = (str: string): [string, string] | null => {
 };
 
 const processParam = (param: string, value?: string) => {
-  if (param === "u" || param === "unit") {
+  if (param === "unit") {
     try {
       if (value !== "KB" && value !== "MB" && value !== "GB") {
         throw new Error();
