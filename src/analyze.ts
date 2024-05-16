@@ -4,9 +4,9 @@ import { readdirSync, statSync } from "fs";
 import { cwd } from "process";
 
 enum Unit {
-  KB = 3,
-  MB = 6,
-  GB = 9,
+  KB = 1,
+  MB,
+  GB,
 }
 
 type Params = { recurse: boolean; unit: "KB" | "MB" | "GB"; fixedPoint: number };
@@ -48,7 +48,7 @@ type DirData = {
   size: number;
 };
 
-const unitScale = 1 / 10 ** Unit[params.unit];
+const unitScale = 1 / 1024 ** Unit[params.unit];
 
 const analyzeDir = (path: string, offsetCounter = -1): DirData => {
   const dirContent = readdirSync(path, { withFileTypes: true });
